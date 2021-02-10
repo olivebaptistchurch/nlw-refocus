@@ -1,12 +1,13 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import Links from '../../atoms/Links/Links';
 
 const Languages = ({ languages }) => {
   return (
     <>
       {
         Object.keys(languages).map(key => 
-            <a href={languages[key]} key={key}>{key}</a>
+            <Links linkTo={languages[key]} message={key} key={key} />
         )
       }
     </>

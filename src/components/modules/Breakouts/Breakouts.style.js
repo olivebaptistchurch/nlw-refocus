@@ -11,7 +11,7 @@ const StyledBreakouts = styled.div`
   h3 {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
   }
 `

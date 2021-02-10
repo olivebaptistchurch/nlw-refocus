@@ -10,12 +10,14 @@ import PropTypes from "prop-types"
 import 'reset-css';
 import Header from "./header"
 import StyledLayout from "./layout.style";
+import Footer from "./modules/Footer/Footer";
 
 const Layout = ({ children }) => {
   return (
     <StyledLayout>
       <Header />
       <main>{children}</main>
+      <Footer />
     </StyledLayout>
   )
 }
