@@ -14,6 +14,15 @@ const StyledFooter = styled.footer`
   p {
     width: 70%;
     margin: 0 auto;
+
+    @media screen and (max-width: ${theme.screens.tablet}) {
+      font-size: 1.75rem;
+    }
+
+    @media screen and (max-width: ${theme.screens.mobile}) {
+      width: 100%;
+      font-size: 1.25rem;
+    }
   }
 
   a {

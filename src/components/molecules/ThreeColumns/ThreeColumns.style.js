@@ -10,10 +10,10 @@ const StyledThreeColumns = styled.div`
 
   @media screen and (max-width: ${theme.screens.tablet}) {
     grid-template-columns: 1fr 1fr;
-    
-    :last-child {
-      grid-column: 1/3;
-    }
+  }
+
+  @media screen and (max-width: ${theme.screens.mobile}) {
+    grid-template-columns: 1fr;
   }
 `
 

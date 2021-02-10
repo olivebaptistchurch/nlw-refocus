@@ -10,6 +10,14 @@ const StyledSchedule = styled.div`
     color: ${theme.colors.primary};
     font-size: 5rem;
     font-weight: 700;
+
+    @media screen and (max-width: ${theme.screens.tablet}) {
+      font-size: 4rem;
+    }
+
+    @media screen and (max-width: ${theme.screens.mobile}) {
+      font-size: 3rem;
+    }
   }
 `
 

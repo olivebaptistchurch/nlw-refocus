@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <p>
-        Refocus is Presented By&nbsp;
+        Refocus is Presented By<br />
         <Links 
           message="NLW International, Inc." 
           linkTo="https://www.nextlevelworship.com" />

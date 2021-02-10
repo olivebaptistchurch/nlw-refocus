@@ -7,6 +7,7 @@ export const theme = {
   screens: {
     mobile: `750px`,
     tablet: `1000px`,
-    desktop: `1250px`
+    desktopMd: `1250px`,
+    desktopLg: `1500px`
   }
 }

@@ -13,6 +13,14 @@ const StyledBreakouts = styled.div`
     font-weight: 700;
     font-size: 5rem;
     margin-bottom: 2rem;
+
+    @media screen and (max-width: ${theme.screens.tablet}) {
+      font-size: 4rem;
+    }
+
+    @media screen and (max-width: ${theme.screens.mobile}) {
+      font-size: 3rem;
+    }
   }
 `
 

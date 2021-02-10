@@ -21,7 +21,8 @@ const ThreeColumns = () => {
       <BreakoutLink
         message="Breakout Link 3"
         linkTo="https://zoom.us"
-        languages={languages} />
+        languages={languages}
+        centeredMobile />
     </StyledThreeColumns>
   );
 };

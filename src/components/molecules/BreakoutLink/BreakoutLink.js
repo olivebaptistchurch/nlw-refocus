@@ -4,9 +4,9 @@ import Button from '../../atoms/Button/Button';
 import Languages from '../Languages/Languages';
 import StyledBreakoutLinks from './BreakoutLinks.style';
 
-const BreakoutLink = ({ message, linkTo, languages }) => {
+const BreakoutLink = ({ message, linkTo, languages, centeredMobile }) => {
   return (
-    <StyledBreakoutLinks>
+    <StyledBreakoutLinks centeredMobile={centeredMobile ? centeredMobile : null}>
       <Button 
         message={message} 
         linkTo={linkTo}
@@ -22,6 +22,7 @@ BreakoutLink.propTypes = {
   message: PropTypes.string,
   linkTo: PropTypes.string,
   languages: PropTypes.object,
+  centeredMobile: PropTypes.bool,
 }
 
 export default BreakoutLink;
