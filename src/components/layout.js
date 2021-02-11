@@ -11,10 +11,12 @@ import 'reset-css';
 import Header from "./header"
 import StyledLayout from "./layout.style";
 import Footer from "./modules/Footer/Footer";
+import { Helmet } from "react-helmet";
 
 const Layout = ({ children }) => {
   return (
     <StyledLayout>
+      <Helmet title="Refocus Conference" />
       <Header />
       <main>{children}</main>
       <Footer />
