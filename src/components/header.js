@@ -10,7 +10,7 @@ const Header = () => (
       <h1>Refocus</h1>
       <Button 
         message="Join Live" 
-        linkTo="https://live.olivebaptist.org"
+        linkTo="https://nextlevelworship.online.church/"
         big
         newWindow />
     </div>
